@@ -1,0 +1,40 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Testname 2",
+      "address": {
+        "street": "Teststreet 4",
+        "town": "Testtown 2",
+        "postode": "123456"
+      },
+      "telephone": "423423562356",
+      "children": [
+        "Kid 3",
+        "Kid 4"
+      ],
+      "url": "https://xyzabc.de",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna ",
+      "verified": true,
+      "salary": 234
+    },
+    {
+      "id": "2",
+      "name": "Testname",
+      "address": {
+        "street": "Teststreet 1",
+        "town": "Testtown",
+        "postode": "123456"
+      },
+      "telephone": "56363463",
+      "children": [
+        "Kid 1",
+        "Kid 2"
+      ],
+      "url": "http://xyz.random",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna ",
+      "verified": true,
+      "salary": 123
+    }
+  ]
+}
