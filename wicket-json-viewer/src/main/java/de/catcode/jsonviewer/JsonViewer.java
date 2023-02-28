@@ -5,6 +5,10 @@ import org.apache.wicket.markup.html.panel.GenericPanel;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.Model;
 
+/**
+ * JSON-Viewer Component.
+ * Uses <a href="https://github.com/abodelot/jquery.json-viewer">jquery.json-viewer</a>
+ */
 public class JsonViewer extends GenericPanel<String> {
 
 	private final JsonViewerConfig config;
@@ -17,7 +21,7 @@ public class JsonViewer extends GenericPanel<String> {
 		super(id, model);
 
 		this.config = new JsonViewerConfig();
-		
+
 		final WebMarkupContainer jsonViewer = new WebMarkupContainer("jsonViewer");
 		jsonViewer.add(new JsonViewerBehavior(jsonViewer, config, model));
 		add(jsonViewer);
